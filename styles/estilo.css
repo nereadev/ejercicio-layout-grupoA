@@ -8,6 +8,10 @@ body {
   'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
 }
+
+html, body{
+  height: 100%;
+}
 /* colores de fondo */
 header, footer {
   color: white;
@@ -103,10 +107,17 @@ footer {
  /* Queries cuerpo principal y sidebar*/
 
  @media (min-width: 800px) {
-    main {
-    display: flex;
-    height: 100vh;
+    .contenedor-general{    
+      display: flex; 
+      flex-direction: column;
+      height: 100%;     
     }
+    main{
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+    }
+   
     .principal{
       width: calc( 100% * 2/3);
     }
