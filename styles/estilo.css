@@ -80,19 +80,19 @@ footer {
  }
 }
 
-@media (min-width: 1000px) and (max-width: 1300px) {
+@media (min-width: 1000px) {
  .contenedor-general{
    width: 940px;
  }
 }
 
-@media (min-width: 800px) and (max-width: 1000px) {
+@media (min-width: 800px) {
  .contenedor-general{
    width: 740px;
  }
 }
 
-@media (min-width: 500px) and (max-width: 800px) {
+@media (min-width: 500px) {
  .contenedor-general{
    width: 480px;
  }
