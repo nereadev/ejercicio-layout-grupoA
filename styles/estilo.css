@@ -76,15 +76,9 @@ footer {
 
 /* Media Queries contenedor-general general*/
 
-@media (min-width: 1300px) {
+@media (min-width: 500px) {
  .contenedor-general{
-   width: 1200px;
- }
-}
-
-@media (min-width: 1000px) {
- .contenedor-general{
-   width: 940px;
+   width: 480px;
  }
 }
 
@@ -94,9 +88,15 @@ footer {
  }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 1000px) {
  .contenedor-general{
-   width: 480px;
+   width: 940px;
+ }
+}
+
+@media (min-width: 1300px) {
+ .contenedor-general{
+   width: 1200px;
  }
 }
 
