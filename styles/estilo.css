@@ -26,6 +26,15 @@ header, footer {
   padding-left: 15px;
 }
 
+.principal p {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.principal, .sidebar {
+  padding: 30px 15px;
+}
+
 /*a lineación */
 
 footer {
