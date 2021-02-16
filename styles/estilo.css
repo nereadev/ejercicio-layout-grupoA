@@ -93,3 +93,16 @@ footer {
    width: 100vw;
  }
 }
+ /* Queries cuerpo principal y sidebar*/
+
+ @media (min-width: 800px) {
+    main {
+    display: flex;
+    }
+    .principal{
+      width: calc( 100% * 2/3);
+    }
+    .sidebar{
+    width: calc( 100% * 1/3);
+    }
+}
