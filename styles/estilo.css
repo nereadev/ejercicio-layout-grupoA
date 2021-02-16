@@ -70,6 +70,8 @@ footer {
 .contenedor-general {
   margin-right: auto;
   margin-left: auto;
+  /* tamaño inicial */
+  width: 100vw;
 }
 
 /* Media Queries contenedor-general general*/
@@ -95,11 +97,5 @@ footer {
 @media (min-width: 500px) {
  .contenedor-general{
    width: 480px;
- }
-}
-
-@media (max-width: 500px) {
- .contenedor-general{
-   width: 100vw;
  }
 }
